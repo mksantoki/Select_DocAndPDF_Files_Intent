@@ -31,6 +31,15 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    /**
+     * 
+     *
+     * @author MAULIK SANTOKI
+     * @version V1.0
+     * @see <a href="https://stackoverflow.com/questions/4212861/what-is-a-correct-mime-type-for-docx-pptx-etc?noredirect=1&lq=1" >Read other file doc here</a>
+     */
+
+
     private Intent getFileChooserIntent() {
         String[] mimeTypes = {"application/pdf", "application/doc", "application/msword"};
 
